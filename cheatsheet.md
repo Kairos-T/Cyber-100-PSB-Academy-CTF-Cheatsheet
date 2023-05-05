@@ -7,9 +7,9 @@
 - `dnsenum`: Gathers information about a target's DNS, such as the IP addresses of DNS servers, mail servers, and other hosts associated with the domain.
   - Syntax: `dnsenum <domain>`
   - Example: `dnsenum example.com`
-- `theharvester`: Gathers emails, subdomains, hosts, employee names, open ports and banners from different public sources.
-  - Syntax: `theharvester -d <domain> -b <search engine>`
-  - Example: `theharvester -d microsoft.com -b google`
+- `theHarvester`: Gathers emails, subdomains, hosts, employee names, open ports and banners from different public sources.
+  - Syntax: `theHarvester -d <domain> -b <search engine>`
+  - Example: `theHarvester -d microsoft.com -b google`
 - `netdiscover`: Discovers hosts on a local network.
   - Syntax: `netdiscover -r <IP range>`
   - Example: `netdiscover -r 192.168.1.0/24`
