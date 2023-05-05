@@ -119,3 +119,21 @@ theharvester -d <domain> -b dnsdumpster -l <limit>
 The DNSDumpster data source also supports several options that allow you to customize your search. Here are some of the most useful options:
 
 * `-c`: The country to search from. This option is useful if you want to limit your search to a specific country. The default value is "us".
+
+
+### Data Sources:
+
+- `google`: Use Google search engine to perform the search.
+- `linkedin`: Use LinkedIn search engine to perform the search.
+- `bing`: Use Bing search engine to perform the search.
+- `pgp`: Use PGP search engine to find PGP keys.
+- `crtsh`: Use the Comodo Certificate search engine.
+- `threatcrowd`: Use ThreatCrowd API to find related information.
+- `virustotal`: Use VirusTotal API to find related information.
+- `dnsdumpster`: Use DNSDumpster search engine to perform the search.
+- `certspotter`: Use Cert Spotter Certificate Transparency search engine.
+- `yahoo`: Use Yahoo search engine to perform the search.
+- `github`: Use GitHub search engine to find related information.
+- `all`: Use all data sources.
+
+Note: Some data sources require API keys to be specified in order to use them.
