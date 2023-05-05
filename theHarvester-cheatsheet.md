@@ -54,4 +54,34 @@ The Bing data source also supports several options that allow you to customize y
 
 **LinkedIn**
 
-The LinkedIn data source searches for employee names using the LinkedIn social network
+The LinkedIn data source searches for employee names using the LinkedIn social network.
+
+```
+theharvester -d <domain> -b linkedin -l <limit>
+```
+
+* `-d`: The target domain to search for.
+* `-b`: The data source to use, which is LinkedIn in this case.
+* `-l`: The limit of results to display. The default value is 500.
+
+The LinkedIn data source also supports several options that allow you to customize your search:
+
+* `-u`: The LinkedIn username to use for authentication. This option is required if you want to search for non-public profiles.
+* `-p`: The LinkedIn password to use for authentication. This option is required if you want to search for non-public profiles.
+* `-c`: The country to search from. This option is useful if you want to limit your search to a specific country. The default value is "us".
+
+**DNSDumpster**
+
+The DNSDumpster data source searches for subdomains using the DNSDumpster database. Here's how you can use the DNSDumpster data source:
+
+```
+theharvester -d <domain> -b dnsdumpster -l <limit>
+```
+
+* `-d`: The target domain to search for.
+* `-b`: The data source to use, which is DNSDumpster in this case.
+* `-l`: The limit of results to display. The default value is 500.
+
+The DNSDumpster data source also supports several options that allow you to customize your search. Here are some of the most useful options:
+
+* `-c`: The country to search from. This option is useful if you want to limit your search to a specific country. The default value is "us".
