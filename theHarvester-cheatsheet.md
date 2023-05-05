@@ -99,7 +99,10 @@ To search for a specific name:
 theharvester -d <domain> -b all -f <first name> -l <last name>
 ```
 
-
+* `-d`: The target domain to search for.
+*`-b`: The data source to use, which is "all" to search across all available sources.
+* `-f`: The first name of the person you want to search for.
+* `-l`: The last name of the person you want to search for.
 
 
 **DNSDumpster**
