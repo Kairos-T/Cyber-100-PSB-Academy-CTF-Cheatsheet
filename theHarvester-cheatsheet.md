@@ -70,6 +70,38 @@ The LinkedIn data source also supports several options that allow you to customi
 * `-p`: The LinkedIn password to use for authentication. This option is required if you want to search for non-public profiles.
 * `-c`: The country to search from. This option is useful if you want to limit your search to a specific country. The default value is "us".
 
+**Email/Phone Number/Name**
+If you want to look up a specific name, phone number, email address, or other piece of information, you can use TheHarvester to search for that information across multiple search engines and data sources. Here are some examples of how you can use TheHarvester to search for specific information:
+
+To search for a specific email address:
+
+```
+theharvester -d <domain> -b google -s <search term>
+```
+
+* `-d`: The target domain to search for.
+* `-b`: The data source to use, which is Google in this case.
+* `-s`: The search term, which is the email address you want to search for.
+
+To search for a specific phone number:
+
+```
+theharvester -d <domain> -b google -s <search term>
+```
+
+* `-d`: The target domain to search for.
+* `-b`: The data source to use, which is Google in this case.
+* `-s`: The search term, which is the phone number you want to search for.
+
+To search for a specific name:
+
+```
+theharvester -d <domain> -b all -f <first name> -l <last name>
+```
+
+
+
+
 **DNSDumpster**
 
 The DNSDumpster data source searches for subdomains using the DNSDumpster database. Here's how you can use the DNSDumpster data source:
